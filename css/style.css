@@ -1,0 +1,68 @@
+@import url("global.css");
+@media (max-width: 375px) {
+    .qrCodeBox{
+        display: flex;
+        align-items: center;
+    }
+}
+.container {
+  width: 1440px;
+  height: 960px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: var(--color-slate-300);
+}
+.qrCodeBox {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 499px;
+  border-radius: 20px;
+  padding: 16px;
+  text-align: center;
+  align-items: flex-start;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+  gap: var(--spacing-300, 24px);
+  
+  background: #ffff;
+}
+
+.qr-title {
+    color: var(--color-slate-900, #1F314F);
+    text-align: center;
+    font-size: var(--fs-bold, 22px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 26.4px */
+    
+}
+.qr-content {
+    margin: 0; 
+    color: var(--color-slate-500, #68778D);
+    text-align: center;
+    font-size: var(--fs-regular);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 21px */
+    letter-spacing: 0.2px;
+    font-style: normal;
+}
+.boxQr {
+    display: flex;
+  width: 288px;
+  height: 288px;
+  background: var(--color-blue-600, #2C7DFA);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    padding: 0px var(--spacing-200);
+    gap: var(--spacing-200);
+}

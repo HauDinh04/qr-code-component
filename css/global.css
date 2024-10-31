@@ -1,0 +1,30 @@
+:root {
+  --color-slate-900: hsl(218, 44%, 22%);
+  --color-slate-500: hsl(216, 15%, 48%);
+  --color-slate-300: hsl(212, 45%, 89%);
+  --color-white: hsl(0, 0, 100%);
+  --fs-bold: 1.375rem;
+  --fs-regular: 0.9375rem;
+  --spacing-500:40px;
+  --spacing-300:20px;
+  --spacing-200:16px;
+
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
